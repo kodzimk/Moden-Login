@@ -1,0 +1,76 @@
+body{
+    background-image: url(pexels-johannes-plenio-1103970.jpg);
+    background-size: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    position: absolute;
+    top:30px;
+    left:900px;
+
+}
+
+
+.uptitle-btn{
+    text-decoration: none;
+    font-size: 19px;
+    color: rgb(23, 154, 198);
+    margin-left: 30px;
+}
+
+.uptitle-btn:after{
+    content: "";
+
+    background-color:#fce38a;
+    opacity: 0;
+    position: absolute;
+    top: 90%;
+    left: 100;
+    z-index: 1;
+
+    transition: opacity .1s linear;
+}
+
+.uptitle-btn:hover{
+    color: black;
+}
+
+.uptitle-btn:hover:after{
+   opacity: 1;
+}
+.forumShape{
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.5);
+    border-radius: 30px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0,0,0.5);
+    top: 100px;
+    right: 500px;
+}
+
+
+.form-input{
+    position: absolute;
+    width: 50%;
+    height: 50px;
+    border-bottom: 2px solid #162938;
+}
+
+.input-box{
+    width: 40%;
+    height: 5%;
+    outline: none;
+    border: none;
+    background: transparent;
+    
+}
+
+.Login{
+    position: relative;
+    left: 250px;
+    top: 50px;
+}
